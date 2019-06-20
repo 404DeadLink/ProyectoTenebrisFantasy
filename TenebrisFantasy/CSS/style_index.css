@@ -1,0 +1,134 @@
+        html{
+            
+            background-color: black;
+            
+        }
+        
+        body{
+
+        font-family: 'zelda';
+
+        }
+
+       @font-face{
+       font-family: 'zelda';
+       src: url(../FUENTES/pixelmix.ttf);
+        }   
+        
+        #primero{
+            
+            color:white;
+            font-weight:160%;
+            margin-top:18%;
+        }
+         
+        #fondo{
+            
+            
+            width:100%;
+            height:97%;
+            
+        }
+        
+        #segundo{
+            
+            display: inline-block;
+            position:absolute;
+            
+         
+        }
+        
+        #titulo{
+            
+            color: rgba(93, 12, 214, 0.7);
+            font-size: 500%;
+            font-family: 'zelda';
+            margin-top:20%;
+            margin-left:30%;
+            position:absolute;
+            text-shadow: 4px 4px black;
+            
+         }
+        
+         @font-face{
+       font-family: 'zelda';
+       src: url(../FUENTES/zelda.ttf);
+        }  
+        
+        #continuar{
+            
+            text-align: center;
+            margin-top:40%;
+            margin-left:38%;
+            position:absolute;
+            font-size: 2em;
+        }
+        
+        #menu{
+            
+            margin-top:23%;
+            margin-left:31.5%;
+            position:absolute;
+            background-color: hsla(264, 100%, 55%, 0.70);
+            border-radius: 20px;
+            width: 30%;
+            height: 15%; 
+            border: 40px solid transparent;
+            border-image:url(../MULTIMEDIA/SPRITES/recuadro.png) 140 round;
+            border-image-outset: 8px;
+            text-align: center;
+            
+        }
+        
+        #antorcha{
+            
+            margin-left:60%;
+            margin-top:8%;
+            width:20%;
+            height: 35%;
+            position:absolute;
+            
+            
+        }
+        
+        #antorcha_2{
+            
+            margin-left:17%;
+            margin-top:8%;
+            width:20%;
+            height: 35%;
+            position:absolute;
+            
+        }
+
+        #arriba{
+            background-color: transparent;
+            border: none;
+            font-size: 1.6em;
+            font-family: 'zelda';
+            padding: 8px 16px;
+        }
+
+        #arriba:focus{
+            outline: 0 none;
+            text-decoration-line: underline;
+        }
+
+        #abajo{
+            background-color: transparent;
+            border: none;
+            font-size: 1.6em;
+            margin-top: 8px;
+            font-family: 'zelda';
+            padding: 10px 20px;
+        }
+
+        #abajo:focus{
+            outline: 0 none;
+            text-decoration-line: underline;
+        }
+
+        
+
+
+
